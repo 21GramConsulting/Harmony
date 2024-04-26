@@ -7,9 +7,6 @@ let package = Package(
   targets: [
     .target(
       name: "Typography"
-    ),
-    .executableTarget(
-      name: "Harmony"
-    ),
+    )
   ]
 )
