@@ -6,7 +6,10 @@ let package = Package(
   name: "Harmony",
   targets: [
     .target(
-      name: "Typography"
-    )
+      name: "Utilities"
+    ),
+
+    /// Tests
+    .testTarget(name: "UtilitiesTests", dependencies: ["Utilities"]),
   ]
 )
