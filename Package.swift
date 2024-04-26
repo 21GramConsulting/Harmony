@@ -5,8 +5,11 @@ import PackageDescription
 let package = Package(
   name: "Harmony",
   targets: [
+    .target(
+      name: "Typography"
+    ),
     .executableTarget(
       name: "Harmony"
-    )
+    ),
   ]
 )
