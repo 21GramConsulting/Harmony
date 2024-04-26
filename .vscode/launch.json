@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [ ],
+      "cwd": "${workspaceFolder:Harmony}",
+      "name": "Debug Harmony",
+      "program": "${workspaceFolder:Harmony}/.build/debug/Harmony",
+      "preLaunchTask": "swift: Build Debug Harmony"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [ ],
+      "cwd": "${workspaceFolder:Harmony}",
+      "name": "Release Harmony",
+      "program": "${workspaceFolder:Harmony}/.build/release/Harmony",
+      "preLaunchTask": "swift: Build Release Harmony"
+    }
+  ]
+}
