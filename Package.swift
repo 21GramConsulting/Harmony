@@ -5,9 +5,8 @@ import PackageDescription
 let package = Package(
   name: "Harmony",
   targets: [
-    .target(
-      name: "Utilities"
-    ),
+    .target(name: "Utilities"),
+    .target(name: "Fraction"),
 
     /// Tests
     .testTarget(name: "UtilitiesTests", dependencies: ["Utilities"]),
